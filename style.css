@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+
+body {
+  background-color: #1a1a1a;
+}
+.container {
+  background-color: #bc24e0;
+  padding: 50px;
+  margin: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  max-width: 30%;
+  border-radius: 50%;
+  margin: 10px 30px;
+}
+h1 {
+  text-shadow: 2px 2px #a3fa42;
+  font-family: "Press Start 2P", cursive;
+}
+h3 {
+  text-shadow: 2px 2px #a3fa42;
+  font-family: "Press Start 2P", cursive;
+}
+.session {
+  background-color: #bc24e0;
+  padding: 50px;
+  margin: 70px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.session p {
+  color: white;
+
+  background-color: black;
+}
+.contact {
+  background-color: #a3fa42;
+  padding: 50px;
+  margin: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-contact {
+    background-color: #a3fa42;
+    border: none;
+}
+.btn-trab{
+    background-color: #bc24e0;
+}
+.btn-formacao{
+    background-color: #bc24e0;
+}
+.conteudot{
+    display: none;
+}
+.conteudof{
+    display: none;
+}
