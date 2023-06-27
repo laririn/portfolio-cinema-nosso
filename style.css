@@ -21,9 +21,9 @@ h1 {
   font-family: "Press Start 2P", cursive;
 }
 h3 {
-  text-shadow: 2px 2px #a3fa42;
-  font-family: "Press Start 2P", cursive;
-}
+    text-shadow: 2px 2px #a3fa42;
+    font-family: "Press Start 2P", cursive;
+  }
 .session {
   background-color: #bc24e0;
   padding: 50px;
