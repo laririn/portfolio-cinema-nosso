@@ -19,3 +19,14 @@ btnFormacao.addEventListener('click', function() {
         conteudof.style.display = 'block';
     }
 })
+
+var btnSobre = document.querySelector('.btn-sobre');
+var conteudoS = document.querySelector('.conteudo-s');
+
+btnSobre.addEventListener('click', function() {
+    if(conteudoS.style.display === 'block'){
+        conteudoS.style.display = 'none';
+    } else {
+        conteudoS.style.display = 'block';
+    }
+})
