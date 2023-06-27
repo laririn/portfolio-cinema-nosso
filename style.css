@@ -14,10 +14,12 @@ body {
 .icon {
   max-width: 30%;
   border-radius: 50%;
+  border: #a3fa42 solid;
   margin: 10px 30px;
 }
 h1 {
   text-shadow: 2px 2px #a3fa42;
+  text-align: center;
   font-family: "Press Start 2P", cursive;
 }
 h3 {
@@ -57,4 +59,32 @@ h3 {
 }
 .conteudof{
     display: none;
+}
+.sobre {
+    padding: 15px;
+    background-color: black;
+    margin: 10px 0px;
+    border: #a3fa42 solid;
+}
+.sobre p {
+    color: white;
+    background-color: black;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: justify;
+}
+.icon-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+}
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn-contact {
+    margin: 0px 10px;
 }
